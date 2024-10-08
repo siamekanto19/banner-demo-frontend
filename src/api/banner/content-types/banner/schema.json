@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "banners",
+  "info": {
+    "singularName": "banner",
+    "pluralName": "banners",
+    "displayName": "Banner"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "contents": {
+      "displayName": "Banner Content",
+      "type": "component",
+      "repeatable": true,
+      "component": "core.banner-content"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_core_banner_contents",
+  "info": {
+    "displayName": "Banner Content",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "sub_heading": {
+      "type": "text",
+      "required": true
+    },
+    "cta_button": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "core.button"
+    },
+    "background_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
